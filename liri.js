@@ -10,10 +10,10 @@ const keys = require('./keys'),
   inquirer = require('inquirer'),
   BAND_DATE_FORMAT = 'YYYY-MM-DDTHH:mm:ss',
   DEFAULT_BAND = 'Ariana Grande'
-DEFAULT_MOVIE = 'Mr. Nobody',
-  DEFAULT_SONG = 'The Sign by Ace of Base';
-OMDB_APIKEY = keys.omdb.id;
-BAND_APIKEY = keys.band.id;
+  DEFAULT_MOVIE = 'Mr. Nobody',
+  DEFAULT_SONG = 'The Sign by Ace of Base',
+  OMDB_APIKEY = keys.omdb.id,
+  BAND_APIKEY = keys.band.id;
 
 // Variables
 var spotify = new Spotify(keys.spotify);
@@ -22,8 +22,10 @@ var spotify = new Spotify(keys.spotify);
 const argCommand = process.argv[2],
   argSearch = process.argv.slice(3).join(" ");
 
+// intial calling of the function to process the search.
 runCommand(argCommand, argSearch);
 
+// function to process the search
 function runCommand(command, search) {
   switch (command) {
     case 'concert-this':
@@ -45,6 +47,7 @@ function runCommand(command, search) {
   }
 }
 
+// Function to give choices to User.
 function commandPrompt() {
   inquirer
     .prompt([
@@ -71,48 +74,50 @@ function commandPrompt() {
             type: 'input',
             name: 'select'
           }
-          ask.message = getMessage(commandSelect); 
+          ask.message = getMessage(commandSelect);
           inquirer.prompt([
             ask
           ]).then(selectResponse => {
-            // processCommand(inputCommand, parameterResponse.parameter)
-            runCommand(commandSelect,selectResponse.select);
+            runCommand(commandSelect, selectResponse.select);
           })
           break;
         case 'exit':
           break;
         case 'do-what-it-says':
-        default: 
-        runCommand(commandSelect);
+        default:
+          runCommand(commandSelect);
       }
     });
 }
 
-function getMessage(commandSelect){
-    if(commandSelect === 'concert-this'){
-      return 'Enter a band name:';
-    }
-    else if(commandSelect === 'spotify-this-song'){
-      return 'Enter a song name:';
-    }
-    else if(commandSelect === 'movie-this'){
-      return 'Enter a movie name:';
-    }
+// function returns commands for the user's seleted choice
+function getMessage(commandSelect) {
+  if (commandSelect === 'concert-this') {
+    return 'Enter a band name:';
+  }
+  else if (commandSelect === 'spotify-this-song') {
+    return 'Enter a song name:';
+  }
+  else if (commandSelect === 'movie-this') {
+    return 'Enter a movie name:';
+  }
 }
 
-function selectContinue(){
+// prompt function to ask user to continue/quit
+function selectContinue() {
   inquirer.prompt([
     {
-      type:'confirm',
+      type: 'confirm',
       message: 'Do you wish to continue',
       name: 'confirm'
     }
-  ]).then(responseContinue =>{
-    if(responseContinue.confirm){
+  ]).then(responseContinue => {
+    if (responseContinue.confirm) {
       commandPrompt();
     }
   })
 }
+
 // If the command is 'concert-this'
 function getBandEvents(argSearch) {
   request(`https://rest.bandsintown.com/artists/${argSearch}/events?app_id=${BAND_APIKEY}`, function (error, response, body) {
