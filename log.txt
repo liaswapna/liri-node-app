@@ -1,5 +1,27 @@
 
-COMMAND: concert-this SEARCH: Metallica
+COMMAND: movie-this SEARCH: avengers
+Title: The Avengers
+Year: 2012
+IMDB Rating: 8.1
+Rotten Tomatoes Rating: 92%
+Country: USA
+Plot: Earth's mightiest heroes must come together and learn to fight as a team if they are going to stop the mischievous Loki and his alien army from enslaving humanity.
+Actors: Robert Downey Jr., Chris Evans, Mark Ruffalo, Chris Hemsworth
+-------------------------------
+
+
+COMMAND: movie-this SEARCH: twilight
+Title: Twilight
+Year: 2008
+IMDB Rating: 5.2
+Rotten Tomatoes Rating: 49%
+Country: USA
+Plot: Bella Swan moves to Forks and encounters Edward Cullen, a gorgeous boy with a secret.
+Actors: Kristen Stewart, Sarah Clarke, Matt Bushell, Billy Burke
+-------------------------------
+
+
+COMMAND: concert-this SEARCH: metallica
 Venue: The Forum
 Location: Los Angeles, CA, United States
 Date: 01/16/2019
@@ -162,415 +184,57 @@ Date: 08/25/2019
 --------------------------------
 
 
-COMMAND: concert-this SEARCH: Ariana Grande
-Venue: Times Union Center
-Location: Albany, NY, United States
-Date: 03/18/2019
---------------------------------
-Venue: TD Garden
-Location: Boston, MA, United States
-Date: 03/20/2019
---------------------------------
-Venue: KeyBank Center
-Location: Buffalo, NY, United States
-Date: 03/22/2019
---------------------------------
-Venue: Capitol One Arena
-Location: Washington, DC, United States
-Date: 03/25/2019
---------------------------------
-Venue: Wells Fargo Center
-Location: Philadelphia, PA, United States
-Date: 03/26/2019
---------------------------------
-Venue: Quicken Loans Arena
-Location: Cleveland, OH, United States
-Date: 03/28/2019
---------------------------------
-Venue: Mohegan Sun Arena
-Location: Uncasville, CT, United States
-Date: 03/30/2019
---------------------------------
-Venue: Bell Centre
-Location: Montréal, , Canada
-Date: 04/01/2019
---------------------------------
-Venue: Scotiabank Arena
-Location: Toronto, , Canada
-Date: 04/03/2019
---------------------------------
-Venue: Little Caesars Arena
-Location: Detroit, MI, United States
-Date: 04/05/2019
---------------------------------
-Venue: United Center
-Location: Chicago, IL, United States
-Date: 04/07/2019
---------------------------------
-Venue: United Center
-Location: Chicago, IL, United States
-Date: 04/08/2019
---------------------------------
-Venue: The Schottenstein Center
-Location: Columbus, OH, United States
-Date: 04/10/2019
---------------------------------
-Venue: Bankers Life Fieldhouse
-Location: Indianapolis, IN, United States
-Date: 04/12/2019
---------------------------------
-Venue: Enterprise Center
-Location: St. Louis, MO, United States
-Date: 04/13/2019
---------------------------------
-Venue: Fiserv Forum
-Location: Milwaukee, WI, United States
-Date: 04/15/2019
---------------------------------
-Venue: Xcel Energy Center
-Location: St Paul, MN, United States
-Date: 04/17/2019
---------------------------------
-Venue: CHI Health Center
-Location: Omaha, NE, United States
-Date: 04/18/2019
---------------------------------
-Venue: Pepsi Center
-Location: Denver, CO, United States
-Date: 04/20/2019
---------------------------------
-Venue: Vivint Smart Home Arena
-Location: Salt Lake City, UT, United States
-Date: 04/22/2019
---------------------------------
-Venue: Rogers Place
-Location: Edmonton, , Canada
-Date: 04/25/2019
---------------------------------
-Venue: Rogers Arena
-Location: Vancouver, , Canada
-Date: 04/27/2019
---------------------------------
-Venue: Moda Center
-Location: Portland, OR, United States
-Date: 04/30/2019
---------------------------------
-Venue: SAP Center
-Location: San Jose, CA, United States
-Date: 05/02/2019
---------------------------------
-Venue: Golden 1 Center
-Location: Sacramento, CA, United States
-Date: 05/03/2019
---------------------------------
-Venue: STAPLES Center
-Location: Los Angeles, CA, United States
-Date: 05/06/2019
---------------------------------
-Venue: Staples Center
-Location: Los Angeles, CA, United States
-Date: 05/07/2019
---------------------------------
-Venue: The Forum
-Location: Los Angeles, CA, United States
-Date: 05/10/2019
---------------------------------
-Venue: Talking Stick Resort Arena
-Location: Phoenix, AZ, United States
-Date: 05/14/2019
---------------------------------
-Venue: AT&T Center
-Location: San Antonio, TX, United States
-Date: 05/17/2019
---------------------------------
-Venue: Toyota Center
-Location: Houston, TX, United States
-Date: 05/19/2019
---------------------------------
-Venue: American Airlines Center
-Location: Dallas, TX, United States
-Date: 05/21/2019
---------------------------------
-Venue: Chesapeake Energy Arena
-Location: Oklahoma City, OK, United States
-Date: 05/23/2019
---------------------------------
-Venue: Smoothie King Center
-Location: New Orleans, LA, United States
-Date: 05/25/2019
---------------------------------
-Venue: Amalie Arena
-Location: Tampa, FL, United States
-Date: 05/28/2019
---------------------------------
-Venue: Amway Center
-Location: Orlando, FL, United States
-Date: 05/29/2019
---------------------------------
-Venue: American Airlines Arena
-Location: Miami, FL, United States
-Date: 05/31/2019
---------------------------------
-Venue: American Airlines Arena
-Location: Miami, FL, United States
-Date: 06/01/2019
---------------------------------
-Venue: PNC Arena
-Location: Raleigh, NC, United States
-Date: 06/04/2019
---------------------------------
-Venue: Bridgestone Arena
-Location: Nashville, TN, United States
-Date: 06/07/2019
---------------------------------
-Venue: State Farm Arena
-Location: Atlanta, GA, United States
-Date: 06/08/2019
---------------------------------
-Venue: Spectrum Center
-Location: Charlotte, NC, United States
-Date: 06/10/2019
---------------------------------
-Venue: PPG Paints Arena
-Location: Pittsburgh, PA, United States
-Date: 06/12/2019
---------------------------------
-Venue: Barclays Center
-Location: Brooklyn, NY, United States
-Date: 06/14/2019
---------------------------------
-Venue: Barclays Center
-Location: Brooklyn, NY, United States
-Date: 06/15/2019
---------------------------------
-Venue: Madison Square Garden
-Location: New York, NY, United States
-Date: 06/18/2019
---------------------------------
-Venue: Madison Square Garden
-Location: New York, NY, United States
-Date: 06/19/2019
---------------------------------
-Venue: Capital One Arena
-Location: Washington, DC, United States
-Date: 06/21/2019
---------------------------------
-Venue: TD Garden
-Location: Boston, MA, United States
-Date: 06/22/2019
---------------------------------
-Venue: Wells Fargo Center
-Location: Philadelphia, PA, United States
-Date: 06/24/2019
---------------------------------
-Venue: Scotiabank Arena
-Location: Toronto, , Canada
-Date: 06/26/2019
---------------------------------
-Venue: The O2 Arena
-Location: London, , United Kingdom
-Date: 08/17/2019
---------------------------------
-Venue: Ziggo Dome
-Location: Amsterdam, , Netherlands
-Date: 08/23/2019
---------------------------------
-Venue: AccorHotels Arena
-Location: Paris, , France
-Date: 08/27/2019
---------------------------------
-Venue: Sportpaleis Antwerpen
-Location: Antwerpen, , Belgium
-Date: 08/30/2019
---------------------------------
-Venue: Lanxess Arena
-Location: Köln, , Germany
-Date: 09/01/2019
---------------------------------
-Venue: Stadthalle
-Location: Vienna, , Austria
-Date: 09/03/2019
---------------------------------
-Venue: Barclaycard Arena
-Location: Hamburg, , Germany
-Date: 09/05/2019
---------------------------------
-Venue: O2 arena
-Location: Praha 9, , Czech Republic
-Date: 09/08/2019
---------------------------------
-Venue: Tauron Arena
-Location: Kraków, , Poland
-Date: 09/09/2019
---------------------------------
-Venue: Arena Birmingham
-Location: Birmingham, , United Kingdom
-Date: 09/14/2019
---------------------------------
-Venue: The SSE Hydro
-Location: Glasgow, , United Kingdom
-Date: 09/17/2019
---------------------------------
-Venue: FlyDSA Arena
-Location: Sheffield, , United Kingdom
-Date: 09/19/2019
---------------------------------
-Venue: 3Arena
-Location: Dublin 1, , Ireland
-Date: 09/22/2019
---------------------------------
-Venue: Royal Arena
-Location: Copenhagen, , Denmark
-Date: 10/01/2019
---------------------------------
-Venue: Telenor Arena
-Location: Oslo, , Norway
-Date: 10/03/2019
---------------------------------
-Venue: Hartwall Arena
-Location: HKI, , Finland
-Date: 10/05/2019
---------------------------------
-Venue: Ericsson Globe
-Location: Stockholm, , Sweden
-Date: 10/07/2019
---------------------------------
-Venue: Mercedes-Benz-Arena
-Location: Berlin, , Germany
-Date: 10/10/2019
---------------------------------
-Venue: Hallenstadion
-Location: Zürich, , Switzerland
-Date: 10/13/2019
---------------------------------
-
-
-COMMAND: spotify-this-song SEARCH: this-love
-Artist(s): Maroon 5
-Song: This Love
-Album: Songs About Jane: 10th Anniversary Edition
+COMMAND: spotify-this-song SEARCH: diamonds
+Artist(s): Ryan Hurd
+Song: Diamonds or Twine
+Album: Diamonds or Twine
+Preview: https://p.scdn.co/mp3-preview/6ee363fde6f51034c24c80fbb56bdd4ee68a5b97?cid=0cfb62c34b4047dc829ed7373bf54a2c
+--------------------------
+Artist(s): Elton John
+Song: Don't Go Breaking My Heart - Remastered
+Album: Diamonds (Deluxe)
 Preview: null
 --------------------------
-Artist(s): Lauren Daigle
-Song: Love Like This
-Album: Look Up Child
+Artist(s): Drake
+Song: Diamonds Dancing
+Album: What A Time To Be Alive
 Preview: null
 --------------------------
-Artist(s): JP Cooper
-Song: All This Love
-Album: Raised Under Grey Skies (Deluxe)
+Artist(s): Rihanna
+Song: Diamonds
+Album: Unapologetic (Deluxe)
 Preview: null
 --------------------------
-Artist(s): Maroon 5
-Song: This Love
-Album: Songs About Jane
+Artist(s): Rihanna
+Song: Diamonds
+Album: Unapologetic (Edited Version)
 Preview: null
 --------------------------
-Artist(s): KREAM
-Song: Know This Love (feat. Litens)
-Album: Know This Love (feat. Litens)
-Preview: https://p.scdn.co/mp3-preview/02e5df18e68be025874af09760070d9126f30f9f?cid=0cfb62c34b4047dc829ed7373bf54a2c
---------------------------
-Artist(s): Usher
-Song: Love in This Club
-Album: Here I Stand
-Preview: https://p.scdn.co/mp3-preview/69611cd7895a738d0516704d3ff67bf2889a4354?cid=0cfb62c34b4047dc829ed7373bf54a2c
---------------------------
-Artist(s): LOCASH
-Song: I Love This Life
-Album: The Fighters
-Preview: https://p.scdn.co/mp3-preview/653716311171cb2251d024d6bf641c78bd5e551b?cid=0cfb62c34b4047dc829ed7373bf54a2c
---------------------------
-Artist(s): Natalie Cole
-Song: This Will Be (An Everlasting Love)
-Album: Inseparable
+Artist(s): Rihanna
+Song: Diamonds
+Album: Unapologetic (Deluxe)
 Preview: null
 --------------------------
-Artist(s): Faith Evans
-Song: Love Like This
-Album: Keep The Faith
-Preview: https://p.scdn.co/mp3-preview/30ccce7de37ac5b3a3ccc80ab19e4d5ad91d2762?cid=0cfb62c34b4047dc829ed7373bf54a2c
+Artist(s): Danger Incorporated
+Song: Diamonds
+Album: Are You Afraid of the Danger Boys?
+Preview: https://p.scdn.co/mp3-preview/cfe145aeb13aff74a2ccb5cd748dbb28c54db8f7?cid=0cfb62c34b4047dc829ed7373bf54a2c
 --------------------------
-Artist(s): Bob Marley & The Wailers
-Song: Is This Love
-Album: Legend (Deluxe Edition)
-Preview: null
+Artist(s): HoodRich Pablo Juan
+Song: Racks On Des Diamonds (feat. Lil Baby)
+Album: Rich Hood
+Preview: https://p.scdn.co/mp3-preview/3d8b7df07154c831b90bd84ae61a4e3e5811cb38?cid=0cfb62c34b4047dc829ed7373bf54a2c
 --------------------------
-
-
-COMMAND: spotify-this-song SEARCH: The Sign by Ace of Base
-Artist(s): Karaoke Box
-Song: I Saw the Sign (Karaoke Playback with Lead Vocals) [Made Famous by Ace of Base]
-Album: Karaoke Box: Reggae Greatest Hits
-Preview: https://p.scdn.co/mp3-preview/56ce61443e2a6475875fb9c5ab0bacf46a2e217f?cid=0cfb62c34b4047dc829ed7373bf54a2c
+Artist(s): Rob Thomas
+Song: Her Diamonds
+Album: cradlesong
+Preview: https://p.scdn.co/mp3-preview/16de0e7d9d63c578b986ec986f27ab9c0cc01326?cid=0cfb62c34b4047dc829ed7373bf54a2c
 --------------------------
-Artist(s): The Karaoke Channel
-Song: The Sign (Originally Performed by Ace of Base) [Karaoke Version]
-Album: The Karaoke Channel - Sing the Sign Like Ace of Base
-Preview: https://p.scdn.co/mp3-preview/f4b3590097ad447c3c6e2114e36ab73aef6af0b8?cid=0cfb62c34b4047dc829ed7373bf54a2c
+Artist(s): A$AP Twelvyy
+Song: Diamonds
+Album: 12
+Preview: https://p.scdn.co/mp3-preview/d6194fca92d84f622fdb1740944363cf7b24f7e5?cid=0cfb62c34b4047dc829ed7373bf54a2c
 --------------------------
-Artist(s): Clara Oaks
-Song: The Sign (Karaoke Version) - Originally Performed By Ace of Base
-Album: The Sign (Karaoke Version) (Originally Performed By Ace of Base)
-Preview: https://p.scdn.co/mp3-preview/0290f8afdb653923587f64cba936aaf14a79ea96?cid=0cfb62c34b4047dc829ed7373bf54a2c
---------------------------
-Artist(s): The Karaoke Crew
-Song: The Sign (As Made Famous By Ace of Base)
-Album: Drew's Famous # 1 Karaoke Hits: 90's Party Hits Vol. 2
-Preview: https://p.scdn.co/mp3-preview/bf8a23ccd1a586e257521afbd9e28a281edb5446?cid=0cfb62c34b4047dc829ed7373bf54a2c
---------------------------
-Artist(s): Anna Gramm
-Song: The Sign (Karaoke Version) [Originally Performed By Ace Of Base]
-Album: The Best Of Ace Of Base (Karaoke Version)
-Preview: https://p.scdn.co/mp3-preview/d14ae51215b279ed2fb18a0dd6bd939aa6ae8f30?cid=0cfb62c34b4047dc829ed7373bf54a2c
---------------------------
-Artist(s): Billboard Karaoke
-Song: The Sign (Made Popular By Ace of Base) [Karaoke Version]
-Album: Billboard Karaoke - Top 10 Box Set (Vol. 3)
-Preview: null
---------------------------
-Artist(s): Roq Star Karaoke
-Song: The Sign (Originally Performed by Ace Of Base) - Karaoke Version
-Album: Karaoke - Ace of Base
-Preview: https://p.scdn.co/mp3-preview/40db9e5358e47bbff74f246c5fadfa47273e726e?cid=0cfb62c34b4047dc829ed7373bf54a2c
---------------------------
-Artist(s): The Karaoke Crew
-Song: The Sign (As Made Famous by Ace of Base)
-Album: Drew's Famous # 1 Karaoke Hits: Sing the Hits of 1994
-Preview: https://p.scdn.co/mp3-preview/bf8a23ccd1a586e257521afbd9e28a281edb5446?cid=0cfb62c34b4047dc829ed7373bf54a2c
---------------------------
-Artist(s): Mega Tracks Karaoke Band
-Song: The Sign (Originally Performed by Ace of Base) [Karaoke Version]
-Album: The Sign (Originally Performed by Ace of Base) [Karaoke Version]
-Preview: https://p.scdn.co/mp3-preview/b0a11e82616e34328a63914850ea338b69ef8fdc?cid=0cfb62c34b4047dc829ed7373bf54a2c
---------------------------
-Artist(s): Sing Strike Karaoke
-Song: The Sign (Karaoke Version) - Originally Performed By Ace Of Base
-Album: The Sign (Karaoke Version) (Originally Performed By Ace Of Base)
-Preview: https://p.scdn.co/mp3-preview/40e0a7a0082ed74593e30c80b0ddf94953f5ca20?cid=0cfb62c34b4047dc829ed7373bf54a2c
---------------------------
-
-
-COMMAND: movie-this SEARCH: frozen
-Title: Frozen
-Year: 2013
-IMDB Rating: 7.5
-Rotten Tomatoes Rating: 90%
-Country: USA
-Plot: When the newly-crowned Queen Elsa accidentally uses her power to turn things into ice to curse her home in infinite winter, her sister Anna teams up with a mountain man, his playful reindeer, and a snowman to change the weather condition.
-Actors: Kristen Bell, Idina Menzel, Jonathan Groff, Josh Gad
--------------------------------
-
-
-COMMAND: movie-this SEARCH: Mr. Nobody
-Title: Mr. Nobody
-Year: 2009
-IMDB Rating: 7.9
-Rotten Tomatoes Rating: 67%
-Country: Belgium, Germany, Canada, France, USA, UK
-Plot: A boy stands on a station platform as a train is about to leave. Should he go with his mother or stay with his father? Infinite possibilities arise from this decision. As long as he doesn't choose, anything is possible.
-Actors: Jared Leto, Sarah Polley, Diane Kruger, Linh Dan Pham
--------------------------------
 
 
 COMMAND: spotify-this-song SEARCH: "I Want it That Way"
@@ -790,82 +454,7 @@ Date: 08/25/2019
 --------------------------------
 
 
-COMMAND: movie-this SEARCH: twilight
-Title: Twilight
-Year: 2008
-IMDB Rating: 5.2
-Rotten Tomatoes Rating: 49%
-Country: USA
-Plot: Bella Swan moves to Forks and encounters Edward Cullen, a gorgeous boy with a secret.
-Actors: Kristen Stewart, Sarah Clarke, Matt Bushell, Billy Burke
--------------------------------
-
-
-COMMAND: movie-this SEARCH: Mr. Nobody
-Title: Mr. Nobody
-Year: 2009
-IMDB Rating: 7.9
-Rotten Tomatoes Rating: 67%
-Country: Belgium, Germany, Canada, France, USA, UK
-Plot: A boy stands on a station platform as a train is about to leave. Should he go with his mother or stay with his father? Infinite possibilities arise from this decision. As long as he doesn't choose, anything is possible.
-Actors: Jared Leto, Sarah Polley, Diane Kruger, Linh Dan Pham
--------------------------------
-
-
-COMMAND: spotify-this-song SEARCH: The Sign by Ace of Base
-Artist(s): Karaoke Box
-Song: I Saw the Sign (Karaoke Playback with Lead Vocals) [Made Famous by Ace of Base]
-Album: Karaoke Box: Reggae Greatest Hits
-Preview: https://p.scdn.co/mp3-preview/56ce61443e2a6475875fb9c5ab0bacf46a2e217f?cid=0cfb62c34b4047dc829ed7373bf54a2c
---------------------------
-Artist(s): The Karaoke Channel
-Song: The Sign (Originally Performed by Ace of Base) [Karaoke Version]
-Album: The Karaoke Channel - Sing the Sign Like Ace of Base
-Preview: https://p.scdn.co/mp3-preview/f4b3590097ad447c3c6e2114e36ab73aef6af0b8?cid=0cfb62c34b4047dc829ed7373bf54a2c
---------------------------
-Artist(s): Clara Oaks
-Song: The Sign (Karaoke Version) - Originally Performed By Ace of Base
-Album: The Sign (Karaoke Version) (Originally Performed By Ace of Base)
-Preview: https://p.scdn.co/mp3-preview/0290f8afdb653923587f64cba936aaf14a79ea96?cid=0cfb62c34b4047dc829ed7373bf54a2c
---------------------------
-Artist(s): The Karaoke Crew
-Song: The Sign (As Made Famous By Ace of Base)
-Album: Drew's Famous # 1 Karaoke Hits: 90's Party Hits Vol. 2
-Preview: https://p.scdn.co/mp3-preview/bf8a23ccd1a586e257521afbd9e28a281edb5446?cid=0cfb62c34b4047dc829ed7373bf54a2c
---------------------------
-Artist(s): Anna Gramm
-Song: The Sign (Karaoke Version) [Originally Performed By Ace Of Base]
-Album: The Best Of Ace Of Base (Karaoke Version)
-Preview: https://p.scdn.co/mp3-preview/d14ae51215b279ed2fb18a0dd6bd939aa6ae8f30?cid=0cfb62c34b4047dc829ed7373bf54a2c
---------------------------
-Artist(s): Billboard Karaoke
-Song: The Sign (Made Popular By Ace of Base) [Karaoke Version]
-Album: Billboard Karaoke - Top 10 Box Set (Vol. 3)
-Preview: null
---------------------------
-Artist(s): Roq Star Karaoke
-Song: The Sign (Originally Performed by Ace Of Base) - Karaoke Version
-Album: Karaoke - Ace of Base
-Preview: https://p.scdn.co/mp3-preview/40db9e5358e47bbff74f246c5fadfa47273e726e?cid=0cfb62c34b4047dc829ed7373bf54a2c
---------------------------
-Artist(s): The Karaoke Crew
-Song: The Sign (As Made Famous by Ace of Base)
-Album: Drew's Famous # 1 Karaoke Hits: Sing the Hits of 1994
-Preview: https://p.scdn.co/mp3-preview/bf8a23ccd1a586e257521afbd9e28a281edb5446?cid=0cfb62c34b4047dc829ed7373bf54a2c
---------------------------
-Artist(s): Mega Tracks Karaoke Band
-Song: The Sign (Originally Performed by Ace of Base) [Karaoke Version]
-Album: The Sign (Originally Performed by Ace of Base) [Karaoke Version]
-Preview: https://p.scdn.co/mp3-preview/b0a11e82616e34328a63914850ea338b69ef8fdc?cid=0cfb62c34b4047dc829ed7373bf54a2c
---------------------------
-Artist(s): Sing Strike Karaoke
-Song: The Sign (Karaoke Version) - Originally Performed By Ace Of Base
-Album: The Sign (Karaoke Version) (Originally Performed By Ace Of Base)
-Preview: https://p.scdn.co/mp3-preview/40e0a7a0082ed74593e30c80b0ddf94953f5ca20?cid=0cfb62c34b4047dc829ed7373bf54a2c
---------------------------
-
-
-COMMAND: spotify-this-song SEARCH: this love
+COMMAND: spotify-this-song SEARCH: this-love
 Artist(s): Maroon 5
 Song: This Love
 Album: Songs About Jane: 10th Anniversary Edition
@@ -911,65 +500,22 @@ Song: Love Like This
 Album: Keep The Faith
 Preview: https://p.scdn.co/mp3-preview/30ccce7de37ac5b3a3ccc80ab19e4d5ad91d2762?cid=0cfb62c34b4047dc829ed7373bf54a2c
 --------------------------
-Artist(s): The Psychedelic Furs
-Song: Love My Way
-Album: All Of This And Nothing
-Preview: https://p.scdn.co/mp3-preview/6bbb00c48320d5aa067ecb12db285cd3d2660794?cid=0cfb62c34b4047dc829ed7373bf54a2c
---------------------------
-
-
-COMMAND: spotify-this-song SEARCH: "I Want it That Way"
-
-Artist(s): Backstreet Boys
-Song: I Want It That Way
-Album: The Hits--Chapter One
-Preview: https://p.scdn.co/mp3-preview/e72a05dc3f69c891e3390c3ceaa77fad02f6b5f6?cid=0cfb62c34b4047dc829ed7373bf54a2c
---------------------------
-Artist(s): Backstreet Boys
-Song: I Want It That Way
-Album: Millennium
-Preview: https://p.scdn.co/mp3-preview/b8c2410a5acb68b462be6ac85f1312430e2b149c?cid=0cfb62c34b4047dc829ed7373bf54a2c
---------------------------
-Artist(s): Anthem Lights
-Song: I Want It That Way
-Album: Covers Part IV
-Preview: https://p.scdn.co/mp3-preview/4a163fbfa2dbbe4433f277e0e7395dca656364f5?cid=0cfb62c34b4047dc829ed7373bf54a2c
---------------------------
-Artist(s): Tyler and Mark
-Song: I Want It That Way
-Album: Beautiful Dreams
-Preview: https://p.scdn.co/mp3-preview/99c791194bbd4e5f315ca8964babf0b69bc520b3?cid=0cfb62c34b4047dc829ed7373bf54a2c
---------------------------
-Artist(s): Various Artists
-Song: I Want It That Way
-Album: Punk Goes Pop
+Artist(s): Bob Marley & The Wailers
+Song: Is This Love
+Album: Legend (Deluxe Edition)
 Preview: null
 --------------------------
-Artist(s): "Weird Al" Yankovic
-Song: Ebay (Parody of "I Want It That Way" by the Backstreet Boys)
-Album: Poodle Hat
-Preview: https://p.scdn.co/mp3-preview/e217ea111ab84a777f204252fce4b18d5de3ae80?cid=0cfb62c34b4047dc829ed7373bf54a2c
---------------------------
-Artist(s): Various Artists
-Song: I Want It That Way
-Album: 90 Sweet 90s Hits!
-Preview: https://p.scdn.co/mp3-preview/2f96341eb8415a3efb27375db1c4d59928408c2f?cid=0cfb62c34b4047dc829ed7373bf54a2c
---------------------------
-Artist(s): NKOTBSB
-Song: I Want It That Way
-Album: NKOTBSB
-Preview: https://p.scdn.co/mp3-preview/adf2485de3f3f375593b5307a792e8d8e6f19794?cid=0cfb62c34b4047dc829ed7373bf54a2c
---------------------------
-Artist(s): Manuel Costa
-Song: I Want It That Way
-Album: I Want It That Way
-Preview: https://p.scdn.co/mp3-preview/cdde86f49ca4ef217ac08bbbb0c6295c16f015b0?cid=0cfb62c34b4047dc829ed7373bf54a2c
---------------------------
-Artist(s): Boyce Avenue
-Song: I Want It That Way
-Album: Cover Sessions, Vol. 2
-Preview: https://p.scdn.co/mp3-preview/764f1dcb8c9a9cec099cc361cb388f931bf023d3?cid=0cfb62c34b4047dc829ed7373bf54a2c
---------------------------
+
+
+COMMAND: movie-this SEARCH: frozen
+Title: Frozen
+Year: 2013
+IMDB Rating: 7.5
+Rotten Tomatoes Rating: 90%
+Country: USA
+Plot: When the newly-crowned Queen Elsa accidentally uses her power to turn things into ice to curse her home in infinite winter, her sister Anna teams up with a mountain man, his playful reindeer, and a snowman to change the weather condition.
+Actors: Kristen Bell, Idina Menzel, Jonathan Groff, Josh Gad
+-------------------------------
 
 
 COMMAND: spotify-this-song SEARCH: "I Want it That Way"

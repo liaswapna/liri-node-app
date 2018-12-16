@@ -14,7 +14,7 @@ LIRI Bot is like iPhone's SIRI. However, while SIRI is a Speech Interpretation a
 
 <dl>
   <dt><code>concert-this [band name]</code></dt>
-  <dd>displays upcoming band event information</dd>
+  <dd>displays upcoming event information about <code>[band name]</code></dd>
   <dt><code>spotify-this-song [song name]</code></dt>
   <dd>displays Spotify information about <code>[song name]</code></dd>
   <dt><code>movie-this [movie name]</code></dt>
@@ -32,6 +32,7 @@ LIRI Bot is like iPhone's SIRI. However, while SIRI is a Speech Interpretation a
 ```js
 {
   "dotenv": "^6.2.0",
+  "inquirer": "^6.2.1",
   "moment": "^2.22.2",
   "node-spotify-api": "^1.0.7",
   "request": "^2.88.0"
@@ -88,6 +89,10 @@ This will search the Bands in Town Artist Events API for an artist and render th
 
      * Edit the text in random.txt to test out the feature for movie-this and concert-this.
 
+5. It also uses inquirer to prompt the users to select the choices.
+    * Using `var inquirer = require('inquirer`)the program gives User choices if they are confused with commands.
+    * A prompt is implemented to make the user to type in the favourite movie,song or band name.
+    * Another prompt helps the user to continue or quit the App.
 #### Additional Features
 
 * In addition to logging the data to your terminal/bash window, output the data to a .txt file called `log.txt`.
@@ -96,6 +101,10 @@ This will search the Bands in Town Artist Events API for an artist and render th
 
 * The file is not overwritten each time the command is run.
 
+* Prompts used to make user choices, and type in the favourite movie, song & band name, also helps user to continue or quit the app.(It helps the user if they are confused with the commands)
+
 ### NOTE
-* [watch the demo video](https://drive.google.com/file/d/1T2J2UpWMuxsY1GLZ4L0GCv_EWQNdAAsK/view?usp=sharing)
+* [watch the demo video](https://drive.google.com/file/d/1fCxJCBItGf471Iui5vDy2oUa1_tobGib/view?usp=sharing)
+
+https://drive.google.com/file/d/1fCxJCBItGf471Iui5vDy2oUa1_tobGib/view?usp=sharing
 
