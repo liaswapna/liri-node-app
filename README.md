@@ -106,5 +106,4 @@ This will search the Bands in Town Artist Events API for an artist and render th
 ### NOTE
 * [watch the demo video](https://drive.google.com/file/d/1fCxJCBItGf471Iui5vDy2oUa1_tobGib/view?usp=sharing)
 
-https://drive.google.com/file/d/1fCxJCBItGf471Iui5vDy2oUa1_tobGib/view?usp=sharing
 
