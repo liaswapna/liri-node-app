@@ -9,6 +9,12 @@ LIRI Bot is like iPhone's SIRI. However, while SIRI is a Speech Interpretation a
 
 2. To retrieve the data that will power this app, you'll need to send requests to the Bands in Town, Spotify and OMDB APIs. You'll find these Node packages crucial for your assignment.
 
+### Getting Started
+---
+* Clone down repo.
+* Run command 'npm install' in Terminal or GitBash
+* Run command 'node liri.js' or one of the accepted commands below.
+
 ### Accepted Commands
 ---
 
@@ -26,6 +32,7 @@ LIRI Bot is like iPhone's SIRI. However, while SIRI is a Speech Interpretation a
 ### Technologies Used
 ---
 * Node js
+
 
 ## Dependencies
 ---
@@ -103,7 +110,6 @@ This will search the Bands in Town Artist Events API for an artist and render th
 
 * Prompts used to make user choices, and type in the favourite movie, song & band name, also helps user to continue or quit the app.(It helps the user if they are confused with the commands)
 
-### NOTE
-* [watch the demo video](https://drive.google.com/file/d/1fCxJCBItGf471Iui5vDy2oUa1_tobGib/view?usp=sharing)
+
 
 
