@@ -110,6 +110,8 @@ This will search the Bands in Town Artist Events API for an artist and render th
 
 * Prompts used to make user choices, and type in the favourite movie, song & band name, also helps user to continue or quit the app.(It helps the user if they are confused with the commands)
 
+### NOTE
+* [watch the demo video](https://drive.google.com/file/d/1fCxJCBItGf471Iui5vDy2oUa1_tobGib/view?usp=sharing)
 
 
 
